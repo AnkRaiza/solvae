@@ -33,8 +33,11 @@
   "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "16.10.2",
+    "bootstrap": "4.5.3",
     "connected-react-router": "6.5.2",
+    "jquery": "3.5.1",
     "object-assign": "4.1.1",
+    "popper.js": "1.16.1",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-redux": "7.1.1",

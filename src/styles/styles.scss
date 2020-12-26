@@ -1,31 +1,134 @@
-/* Variables */
-$vin-blue: #5bb7db;
-$vin-green: #60b044;
-$vin-red: #ff0000;
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
 
-/* Styles */
-body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
+nav.navbar {
+  height: 100px;
+  padding: 0;
+  .navbar-brand {
+    padding: 0;
+  }
+  .nav-item {
+    a {
+      font-size: 17px;
+      text-decoration: none;
+      color: #646464;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+      font-weight: 500;
+    }
+  }
 }
 
-td {
-	padding: 12px;
+.btn.btn-primary {
+  img {
+    vertical-align: baseline;
+    margin-right: 6.5px;
+  }
 }
 
-h2 {
-	color: $vin-blue;
+#solvaeMainSlider {
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+  min-height: 568px;
 }
-
-.savings { color: $vin-green; }
-.loss { color: $vin-red; }
-input.small { width: 46px; }
-td.fuel-savings-label { width: 175px; }
+.carousel-inner {
+  height: 100%;
+}
+.home_slider_container {
+  position: absolute;
+  bottom: 25%;
+  p {
+    font-size: 40px;
+    color: #fff;
+  }
+}
+.middleTextContainer {
+  margin: 120px 0;
+  font-size: 35px;
+  color: #323232;
+  div + div {
+    margin-top: 30px;
+    > p {
+      font-size: 20px;
+      color: #646464;
+    }
+  }
+}
+.simpleProductContainer {
+  > div {
+    margin-bottom: 50px;
+    .parallax {
+      height: 140px;
+      // background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 4px;
+    }
+    .prod1{
+      background-image: url(../assets/images/PROD_1.png);
+    }
+    .prod2{
+      background-image: url(../assets/images/PROD_2.png);
+    }
+    .prod3{
+      background-image: url(../assets/images/PROD_3.png);
+    }
+    .prod4{
+      background-image: url(../assets/images/PROD_4.png);
+    }
+    .prod5{
+      background-image: url(../assets/images/PROD_5.png);
+    }
+    .prod6{
+      background-image: url(../assets/images/PROD_6.png);
+    }
+    .prod7{
+      background-image: url(../assets/images/PROD_7.png);
+    }
+    .simple_product_base {
+      position: relative;
+      margin-top: 31px;
+      font-size: 20px;
+      color: #646464;
+      img {
+        margin-right: 24px;
+        vertical-align: text-bottom;
+      }
+      .second_text {
+        position: absolute;
+        width: 100%;
+        display: block;
+        left: 50px;
+      }
+    }
+  }
+}
+#solvaeProviderSlider {
+  height: 420px;
+  .carousel-indicators {
+    right: calc(-15% + 340px);
+    left: auto;
+  }
+}
+.testimonialsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto 445px;
+  div {
+    margin-top: 120px;
+    background-color: gray;
+    height: 530px;
+    min-width: 400px;
+    &:first-child {
+      width: 708px;
+      margin-right: auto;
+      font-size: 35px;
+      background-color: transparent;
+      height: auto;
+      justify-self: flex-start;
+    }
+  }
+}

@@ -92,7 +92,7 @@ export default {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]'
+              name: '[name].[ext]',
             }
           }
         ]
