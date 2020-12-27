@@ -1,0 +1,126 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+@import "~react-custom-scroll/dist/customScroll";
+
+.title_container {
+  background-color: #F0F0F0;
+  padding-top: 77px;
+  padding-bottom: 74px;
+
+  h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #323232;
+  }
+
+  p {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #646464;
+  }
+}
+
+.image {
+  padding: 0 !important;
+}
+
+.midleTextContainer {
+  margin: 93px 0 82px 0;
+
+  p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.mision_vision {
+  margin-bottom: 80px;
+
+  >div {
+    .item {
+      height: 100%;
+      padding: 32px 58px;
+      border-radius: 4px;
+      background-color: $primary;
+      color: #fff;
+
+      img {
+        vertical-align: text-top;
+        margin-right: 15px;
+      }
+
+      span {
+        font-size: 28px;
+        font-weight: 600;
+
+        +span {
+          display: block;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.timeline_container {
+  margin-bottom: 76px;
+  .elevetor_container {
+    position: relative;
+    max-height: 340px;
+    color: #fff;
+    .year {
+      margin: 0 auto 5.5px auto;
+      text-align: center;
+      width: 80px;
+      height: 30px;
+      font-size: 20px;
+      border-radius: 4px;
+      background-color: $primary;
+    }
+    img {
+      margin: auto;
+      display: block;
+    }
+    .middle_line {
+      padding-top: 23px;
+      &.left {
+        width: calc(50% + 1px);
+        border-right: 1px dashed $primary;
+        border-left: none;
+        margin-right: auto;
+        text-align: right;
+        .title, .content {
+          padding-right: 50px;
+        }
+      }
+      &.right {
+        width: 50%;
+        border-right: none;
+        border-left: 1px dashed $primary;
+        margin-left: auto;
+        text-align: left;
+        .title, .content {
+          padding-left: 50px;
+        }
+      }
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #323232;
+      }
+      .content {
+        font-size: 20px;
+        font-weight: 400;
+        color: #646464;
+      }
+    }
+  }
+}
+.rcs-custom-scroll {
+  flex: 1 1 100%;
+  .rcs-inner-handle {
+    background-color: transparent;
+    color: transparent;
+  }
+}

@@ -6,12 +6,18 @@ import brand1 from '../assets/images/BRAND_1.png';
 import brand2 from '../assets/images/BRAND_2.png';
 import brand3 from '../assets/images/BRAND_3.png';
 import brand4 from '../assets/images/BRAND_4.png';
+import client1 from '../assets/images/CLIENT_1.png';
+import client2 from '../assets/images/CLIENT_2.png';
+import client4 from '../assets/images/CLIENT_4.png';
+import tes1 from '../assets/images/TES_1.png';
+import tes2 from '../assets/images/TES_2.png';
 import arrow from '../assets/images/PROD_BULLET.png';
+import quote from '../assets/images/QUOTES.png';
 
 const HomePage = () => {
 	return (
 		<div>
-			<div id="solvaeMainSlider" className="carousel slide" data-ride="carousel">
+			<div id="solvaeMainSlider" className="carousel slide row" data-ride="carousel">
 				<ol className="carousel-indicators">
 					<li data-target="#solvaeMainSlider" data-slide-to="0" className="active"></li>
 					<li data-target="#solvaeMainSlider" data-slide-to="1"></li>
@@ -37,12 +43,12 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
-			<div className="middleTextContainer">
-				<div className="row">
-					<p className="col-4 offset-4 text-center">Contamos con el apoyo de empresas con amplia trayectoria y los mejores productos</p>
+			<div className="middleTextContainer row">
+				<div className="col-4 offset-4 text-center">
+					Contamos con el apoyo de empresas con amplia trayectoria y los mejores productos
 				</div>
-				<div className="row">
-					<p className="col-6 offset-3 text-center">Te brindamos el mejor respaldo y garantía.</p>
+				<div className="col-6 offset-3 text-center">
+					Te brindamos el mejor respaldo y garantía.
 				</div>
 			</div>
 			<div className="simpleProductContainer row col-8 offset-2">
@@ -75,7 +81,7 @@ const HomePage = () => {
 					<div className="simple_product_base"><img src={arrow} width="25" height="25" /><span>Duplicadores de estacionamiento</span></div>
 				</div>
 			</div>
-			<div id="solvaeProviderSlider" className="carousel slide" data-ride="carousel">
+			<div id="solvaeProviderSlider" className="carousel slide row" data-ride="carousel">
 				<ol className="carousel-indicators">
 					<li data-target="#solvaeProviderSlider" data-slide-to="0" className="active"></li>
 					<li data-target="#solvaeProviderSlider" data-slide-to="1"></li>
@@ -97,10 +103,32 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
-			<div className="testimonialsContainer">
-				<div>La confianza de nuestros clientes, dice mas de lo que podriamos decirte nosotros</div>
-				<div>gil 1</div>
-				<div>gil 2</div>
+			<div className="testimonialsContainer row">
+				<div className="col-5 offset-3 title">La confianza de nuestros clientes, dice mas de lo que podriamos decirte nosotros</div>
+				<div className="row col-12">
+					<div className="col-3 offset-3 testimony">
+						<img src={tes1} />
+						<img src={quote} />
+						<span>
+							Desplazar a nuestra abuelita de 92 años para paseos o atenciones en clínicas era extenuante, gracias a Solvae la silla salvaescalera nos facilitó el desplazamiento y prescindir de las ayudas de los serenos.
+						</span>
+					</div>
+					<div className="col-3 offset-1 testimony">
+						<img src={tes2} />
+						<img src={quote} />
+						<span>
+							Antes de tener la silla salvaescalera, no tenía la posibilidad de salir a la calle. Subir y bajar escaleras era bastante complicado, los pasamanos en caso de mi enfermedad no son de gran ayuda, me sentía encerrado en el primer piso de mi casa. Después de la instalación de la silla salvaescalera, experimente la sensación de libertad.
+						</span>
+					</div>
+					<div className="col-3 offset-3 name">Henry Vizcarra</div>
+					<div className="col-3 offset-1 name">Ana Bueno</div>
+				</div>
+			</div>
+			<div className="clientsContainer row">
+				<div className="col-2 offset-2 texto">Trabajamos junto a:</div>
+				<div className="col-2"><img src={client1} /></div>
+				<div className="col-2"><img src={client2} /></div>
+				<div className="col-2"><img src={client4} /></div>
 			</div>
 		</div>
 	);
