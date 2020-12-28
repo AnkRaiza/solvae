@@ -5,34 +5,45 @@
 nav.topbar.navbar {
   height: 100px;
   padding: 0;
+
   .navbar-brand {
     padding: 0;
   }
+
+  button.navbar-toggler:focus {
+    outline: none !important;
+  }
+
   .navbar-nav {
     align-items: center;
+
     .nav-item {
       .dropdown-menu {
         border: none;
         top: 90%;
         border-radius: 0;
         padding: 50px 44px 44px 44px;
-        > li {
-          > ul > li {
+
+        >li {
+          >ul>li {
             list-style: none;
-            > a {
-              font-size: 13px;
+
+            >a {
+              font-size: 0.8125rem;
               font-weight: 400;
             }
           }
-          > a {
-            font-size: 13px;
+
+          >a {
+            font-size: 0.8125rem;
             font-weight: 500;
             color: $primary;
           }
         }
       }
+
       a {
-        font-size: 17px;
+        font-size: 1.0625rem;
         text-decoration: none;
         color: #646464;
         display: inline-block;
@@ -40,6 +51,7 @@ nav.topbar.navbar {
         white-space: nowrap;
         font-weight: 500;
       }
+
       &:hover {
         .dropdown-menu {
           display: block;
@@ -57,40 +69,48 @@ nav.topbar.navbar {
 }
 
 .main_container {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 #solvaeMainSlider {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   height: calc(100vh - 100px);
   min-height: 568px;
 }
+
 .carousel-inner {
   height: 100%;
 }
+
 .home_slider_container {
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
+
   p {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fff;
   }
 }
+
 .middleTextContainer {
-  margin: 120px 0;
-  font-size: 35px;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  font-size: 2.1875rem;
   font-weight: 500;
   color: #323232;
-  div + div {
+
+  div+div {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #646464;
     font-weight: 400;
   }
 }
+
 .simpleProductContainer {
-  > div {
+  >div {
     margin-bottom: 50px;
+
     .parallax {
       height: 140px;
       // background-attachment: fixed;
@@ -99,36 +119,46 @@ nav.topbar.navbar {
       background-size: cover;
       border-radius: 4px;
     }
-    .prod1{
+
+    .prod1 {
       background-image: url(../assets/images/PROD_1.png);
     }
-    .prod2{
+
+    .prod2 {
       background-image: url(../assets/images/PROD_2.png);
     }
-    .prod3{
+
+    .prod3 {
       background-image: url(../assets/images/PROD_3.png);
     }
-    .prod4{
+
+    .prod4 {
       background-image: url(../assets/images/PROD_4.png);
     }
-    .prod5{
+
+    .prod5 {
       background-image: url(../assets/images/PROD_5.png);
     }
-    .prod6{
+
+    .prod6 {
       background-image: url(../assets/images/PROD_6.png);
     }
-    .prod7{
+
+    .prod7 {
       background-image: url(../assets/images/PROD_7.png);
     }
+
     .simple_product_base {
       position: relative;
       margin-top: 31px;
-      font-size: 20px;
+      font-size: 1.25rem;
       color: #646464;
+
       img {
         margin-right: 24px;
         vertical-align: text-bottom;
       }
+
       .second_text {
         position: absolute;
         width: 100%;
@@ -138,45 +168,53 @@ nav.topbar.navbar {
     }
   }
 }
+
 #solvaeProviderSlider {
   height: 420px;
+
   .carousel-indicators {
     right: calc(-15% + 340px);
     left: auto;
   }
 }
+
 .testimonialsContainer {
   .title {
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: #323232;
     font-weight: 500;
-    margin-top: 100px;
-    margin-bottom: 130px;
+    margin-top: 6.25rem;
+    margin-bottom: 8.125rem;
   }
+
   .testimony {
     img {
       display: block;
       margin-bottom: 42px;
     }
+
     span {
       display: block;
       width: 400px;
-      font-size: 17px;
+      font-size: 1.0625rem;
       color: #646464;
     }
   }
+
   .name {
     margin-top: 25px;
     font-weight: 500;
     color: $primary;
   }
 }
+
 .clientsContainer {
   margin-top: 100px;
   background-color: #F0F0F0;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #646464;
   font-weight: 500;
+
   .texto {
     display: flex;
     align-self: center;
@@ -186,34 +224,124 @@ nav.topbar.navbar {
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 50px 0;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+
   .links {
     display: flex;
     justify-content: space-around;
-    font-size: 13.5;
+    font-size: 0.84375rem;
+
     a {
       text-decoration: none;
       color: #fff;
     }
   }
+
   .address {
     margin-top: 40px;
-    font-size: 13.5px;
+    font-size: 0.84375rem;
     font-weight: 300;
   }
+
   .social_networks {
     display: flex;
     justify-content: space-around;
     margin-top: 43px;
     margin-bottom: 18px;
   }
+
   .copyright {
-    font-size: 12.5px;
+    font-size: 0.78125rem;
+
     span {
       font-weight: 500;
-      + span {
+
+      +span {
         font-weight: 300;
       }
+    }
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+@include media-breakpoint-down(lg) {
+  html {
+    font-size: 10px;
+  }
+
+  nav.topbar.navbar {
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-brand {
+    width: auto;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+  }
+
+  #solvaeMainSlider {
+    height: auto;
+    min-height: auto;
+  }
+
+  #solvaeProviderSlider {
+    height: auto;
+
+    .carousel-indicators {
+      right: 0;
+      left: 0;
+    }
+  }
+
+  .home_slider_container {
+    p {
+      font-size: 2rem;
+    }
+
+    button {
+      font-size: 1rem;
+    }
+  }
+
+  .testimonialsContainer {
+    .testimony span {
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .name {
+    padding-left: 0;
+  }
+
+  .simpleProductContainer>div .simple_product_base .second_text {
+    position: static;
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .whatsapp {
+    bottom: 30px;
+  }
+
+  .title_container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    img {
+      max-width: 100%;
     }
   }
 }

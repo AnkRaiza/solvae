@@ -8,14 +8,14 @@
   padding-bottom: 74px;
 
   h2 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 600;
     color: #323232;
   }
 
   p {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #646464;
   }
 }
@@ -28,7 +28,7 @@
   margin: 93px 0 82px 0;
 
   p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
   }
 }
@@ -50,12 +50,12 @@
       }
 
       span {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: 600;
 
         +span {
           display: block;
-          font-size: 20px;
+          font-size: 1.25rem;
           font-weight: 400;
         }
       }
@@ -74,7 +74,7 @@
       text-align: center;
       width: 80px;
       height: 30px;
-      font-size: 20px;
+      font-size: 1.25rem;
       border-radius: 4px;
       background-color: $primary;
     }
@@ -105,12 +105,12 @@
         }
       }
       .title {
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         color: #323232;
       }
       .content {
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 400;
         color: #646464;
       }

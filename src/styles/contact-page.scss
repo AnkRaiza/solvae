@@ -3,19 +3,19 @@
   .title_container {
     background-color: #fff;
     h2 {
-      font-size: 35px;
+      font-size: 2.1875rem;
       font-weight: 600;
       color: #323232;
     }
   
     p {
-      font-size: 20px;
+      font-size: 1.25rem;
       color: #646464;
     }
     img {
       position: relative;
-      top: -135px;
-      margin-bottom: -135px;
+      top: -8.4375rem;
+      margin-bottom: -8.4375rem;
     }
   }
 }
@@ -33,7 +33,7 @@
     } 
   }
   .inputs_container {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 300;
     color: #646464;
     label {
@@ -64,8 +64,6 @@
     margin-bottom: 83px;
     a {
       display: inline-block;
-      width: 170px;
-      height: 40px;
     }
   }
 }

@@ -38,20 +38,20 @@ class Contact extends React.Component {
 	}
 	render() {
 		return (
-			<div className="main_container white">
+			<div className="main_container col-12 white">
 				<div className="row title_container">
-					<div className="col offset-2">
+					<div className="col offset-lg-2">
 						<h2>Hablemos<br /> un poco</h2>
 						<p>Coloca tus datos y nos comunicaremos<br /> contigo rápidamente.</p>
 						<img src={imageContact} />
 					</div>
 				</div>
 				<div className="row form_container">
-					<div className="col-2 offset-2 data">
+					<div className="col-lg-2 offset-lg-2 data">
 						<div><img src={iconPhone} />(+01) 439-9037</div>
 						<div><img src={iconMail} />ventas@solvae.pe</div>
 					</div>
-					<div className="col-2 inputs_container">
+					<div className="col-lg-2 inputs_container">
 						<label>Nombre</label>
 						<input name="nombre" value={this.state.nombre} onChange={this.handleChange} />
 						<label>Correo</label>
@@ -63,11 +63,11 @@ class Contact extends React.Component {
 						<label>Numero</label>
 						<input name="numero" value={this.state.numero} onChange={this.handleChange} />
 					</div>
-					<div className="col-4 textarea_container">
+					<div className="col-lg-4 textarea_container">
 						<label>Mensaje</label>
 						<textarea name="mensaje" value={this.state.mensaje} onChange={this.handleChange} />
 					</div>
-					<div className="col-8 offset-2 text-right button_container">
+					<div className="col-lg-8 offset-lg-2 text-right button_container">
 						<a onClick={this.handleSubmit} className="btn btn-primary">Enviar</a>
 					</div>
 					<ToastContainer />

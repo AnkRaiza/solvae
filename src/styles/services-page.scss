@@ -1,0 +1,53 @@
+.services_container {
+  margin-bottom: 6.875rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  color: #fff;
+
+  h2 {
+    font-size: 1.875rem;
+    margin-bottom: 2.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+
+.services_image_container {
+  margin-bottom: 7.125rem;
+
+  .title {
+    font-size: 1.25rem;
+    color: #323232;
+    font-weight: 500;
+  }
+
+  img {
+    padding-top: 6.5625rem;
+    padding-bottom: 4.9375rem;
+  }
+
+  .item_container {
+    height: 100%;
+  }
+
+  .item {
+    text-align: center;
+    padding: 0 2.8125rem;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #00000033;
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.875rem;
+      margin-bottom: 2.5rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+  }
+}
