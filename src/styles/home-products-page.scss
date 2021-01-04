@@ -6,12 +6,12 @@
   h2 {
     font-size: 2.1875rem;
     font-weight: 600;
-    color: #323232;
   }
 
   p {
     margin-top: 50px;
     font-size: 1.25rem;
+    font-weight: 300;
     color: #646464;
   }
 }
@@ -25,7 +25,8 @@
 
   p {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 300;
+    color: #646464;
   }
 }
 
@@ -34,7 +35,7 @@
   .item {
     text-align: right;
     margin-bottom: 20px;
-    box-shadow: 3px 3px 10px #646464;
+    box-shadow: 10px 6px 10px -5px #dcdcdc;
     border-radius: 3px;
 
     >img {
@@ -44,19 +45,21 @@
     }
 
     >h2 {
-      font-size: 1.875rem;
+      font-size: 1.5625rem;
       font-weight: 600;
-      margin-right: 20px;
-      margin-top: 35px;
+      margin-right: 2.1875rem;
+      margin-top: 2.1875rem;
     }
 
     >div {
-      margin: 35px 20px;
+      min-height: 5.625rem;
+      margin: 2.1875rem;
+      line-height: 1.875rem;
     }
 
     >a {
-      margin-right: 20px;
-      margin-bottom: 20px;
+      margin-right: 2.1875rem;
+      margin-bottom: 2.1875rem;
 
       >img {
         vertical-align: text-bottom;

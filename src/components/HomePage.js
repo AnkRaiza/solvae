@@ -34,13 +34,15 @@ const HomePage = () => {
 						<img className="d-block w-100" src={slider3} alt="Third slide" />
 					</div>
 				</div>
-				<div className="home_slider_container col-10 col-lg-4 offset-1 offset-lg-4 text-center">
-					<p>Trasladarse dentro y fuera de casa nunca fue tan facil.</p>
-					<div className="row justify-content-evenly">
-						<button className="btn btn-primary shadow-none col-3 col-lg-3 offset-1 offset-lg-1">Hogar</button>
-						<button className="btn btn-primary shadow-none col-3 col-lg-3 offset-1 offset-lg-1">Empresas</button>
-						<button className="btn btn-primary shadow-none col-3 col-lg-3 offset-1 offset-lg-1">Servicios</button>
+				<div className="home_slider_container col-10 col-lg-5 offset-1 text-center">
+					<div className="slider_text">
+						<p>Trasladarse dentro y fuera de casa, nunca fue tan fácil.</p>
 					</div>
+				</div>
+				<div className="col-12 col-lg-6 offset-lg-3 text-center slider_buttons">
+					<button className="btn btn-primary shadow-none">Hogar</button>
+					<button className="btn btn-primary shadow-none">Empresas</button>
+					<button className="btn btn-primary shadow-none">Servicios</button>
 				</div>
 			</div>
 			<div className="middleTextContainer row">
@@ -105,6 +107,14 @@ const HomePage = () => {
 					<div className="carousel-item">
 						<img className="d-block w-100" src={brand4} alt="Fourth slide" />
 					</div>
+				</div>
+				<div className="provider_slider_container col-lg-5 d-none d-lg-block">
+					<div className="slider_text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam . Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+					</div>
+				</div>
+				<div className="col-12 provider_slider_buttons">
+					<button className="btn btn-primary shadow-none">Ver más</button>
 				</div>
 			</div>
 			<div className="testimonialsContainer row">

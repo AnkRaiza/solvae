@@ -29,54 +29,56 @@ class App extends React.Component {
     return (
       <div className="row">
         <div className="col-12">
-          <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light topbar">
-            <div className="container-fluid">
-              <a className="navbar-brand col-lg-1 offset-lg-2"><img src={logo} /></a>
-              <button className="navbar-toggler shadow-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse col-lg-6" id="navbarSupportedContent">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0 row">
-                  <li className="nav-item col">
-                    <NavLink exact to="/" activeClassName="active">INICIO</NavLink>
-                  </li>
-                  <li className="nav-item col dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
-                      PRODUCTOS Y SERVICIOS</a>
-                    <ul className="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                      <li>
-                        <NavLink exact to="/home" activeClassName="active">Para mi hogar</NavLink>
-                        <ul>
-                          <li><NavLink exact to="/home" activeClassName="active">Silla salvaescalera</NavLink></li>
-                          <li><NavLink exact to="/home" activeClassName="active">Plataforma salvaescalera</NavLink></li>
-                          <li><NavLink exact to="/home" activeClassName="active">Montaescaleras</NavLink></li>
-                          <li><NavLink exact to="/home" activeClassName="active">Elevador para el hogar</NavLink></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <NavLink exact to="/business" activeClassName="active">Para mi empresa</NavLink>
-                        <ul>
-                          <li><NavLink exact to="/business" activeClassName="active">Ascensores</NavLink></li>
-                          <li><NavLink exact to="/business" activeClassName="active">Escaleras mecánicas y rampas móviles</NavLink></li>
-                          <li><NavLink exact to="/business" activeClassName="active">Duplicadores de estacionamiento</NavLink></li>
-                          <li><NavLink exact to="/business" activeClassName="active">Accesibilidad</NavLink></li>
-                        </ul>
-                      </li>
-                      <li><NavLink exact to="/servicios" activeClassName="active">Mantenimiento y reparacion</NavLink></li>
-                    </ul>
-                  </li>
-                  <li className="nav-item col">
-                    <NavLink to="/about" activeClassName="active">SOBRE NOSOTROS</NavLink>
-                  </li>
-                  <li className="nav-item col">
-                    <NavLink to="/contactenos" activeClassName="active">CONTACTENOS</NavLink>
-                  </li>
-                </ul>
-              </div>
-              <div className="col d-none d-lg-block">
-                <a className="btn btn-primary shadow-none" role="button" target="_blank" rel="noopener noreferrer" href="https://google.com">
-                  <img src={intranetIcon} alt="Intranet" width="18" height="12" title="intranet" />.intranet
+          <nav className="row navbar fixed-top navbar-expand-lg navbar-light bg-light topbar">
+            <div className="col-12 col-lg-8 offset-lg-2">
+              <div className="row main_navbar_container">
+                <a className="navbar-brand col-lg-2"><img src={logo} /></a>
+                <button className="navbar-toggler shadow-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse col-lg-8" id="navbarSupportedContent">
+                  <ul className="navbar-nav me-auto mb-2 mb-lg-0 row">
+                    <li className="nav-item col col-lg-2">
+                      <NavLink exact to="/" activeClassName="active">INICIO</NavLink>
+                    </li>
+                    <li className="nav-item col col-lg-4 dropdown">
+                      <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
+                        PRODUCTOS Y SERVICIOS</a>
+                      <ul className="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                        <li>
+                          <NavLink exact to="/home" activeClassName="active">Para mi hogar</NavLink>
+                          <ul>
+                            <li><NavLink exact to="/home" activeClassName="active">Silla salvaescalera</NavLink></li>
+                            <li><NavLink exact to="/home" activeClassName="active">Plataforma salvaescalera</NavLink></li>
+                            <li><NavLink exact to="/home" activeClassName="active">Montaescaleras</NavLink></li>
+                            <li><NavLink exact to="/home" activeClassName="active">Elevador para el hogar</NavLink></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <NavLink exact to="/business" activeClassName="active">Para mi empresa</NavLink>
+                          <ul>
+                            <li><NavLink exact to="/business" activeClassName="active">Ascensores</NavLink></li>
+                            <li><NavLink exact to="/business" activeClassName="active">Escaleras mecánicas y rampas móviles</NavLink></li>
+                            <li><NavLink exact to="/business" activeClassName="active">Duplicadores de estacionamiento</NavLink></li>
+                            <li><NavLink exact to="/business" activeClassName="active">Accesibilidad</NavLink></li>
+                          </ul>
+                        </li>
+                        <li><NavLink exact to="/servicios" activeClassName="active">Mantenimiento y reparacion</NavLink></li>
+                      </ul>
+                    </li>
+                    <li className="nav-item col col-lg-3">
+                      <NavLink to="/about" activeClassName="active">SOBRE NOSOTROS</NavLink>
+                    </li>
+                    <li className="nav-item col col-lg-3">
+                      <NavLink to="/contactenos" activeClassName="active">CONTACTENOS</NavLink>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col d-none d-lg-block text-right">
+                  <a className="row btn btn-primary shadow-none" role="button" target="_blank" rel="noopener noreferrer" href="https://google.com">
+                    <img src={intranetIcon} alt="Intranet" width="18" height="12" title="intranet" />.intranet
                 </a>
+                </div>
               </div>
             </div>
           </nav>

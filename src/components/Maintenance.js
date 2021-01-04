@@ -21,16 +21,16 @@ const Maintenance = () => {
 				<p className="col-lg-8 offset-lg-2 text-center">Párrafo descriptivo de los productos en general. consectetur adipiscing elit. Curabitur tristique sollicitudin nisl, sollicitudin porta tortor hendrerit ut. Curabitur metus lacus, condimentum sed consectetur vitae, ultricies sit amet felis.</p>
 			</div>
 			<div className="row bg-primary services_container">
-				<div className="col-lg-2 offset-lg-3 text-center">
-					<h2>24 Horas</h2>
+				<div className="col-lg-2 offset-lg-2 text-center">
+					<div>24 Horas</div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
 				</div>
-				<div className="col-lg-2 text-center">
-					<h2>365 Dias</h2>
+				<div className="col-lg-2 offset-lg-1 text-center">
+					<div>365 Dias</div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
 				</div>
-				<div className="col-lg-2 text-center">
-					<h2>Todas las marcas</h2>
+				<div className="col-lg-2 offset-lg-1 text-center">
+					<div>Todas las marcas</div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
 				</div>
 			</div>

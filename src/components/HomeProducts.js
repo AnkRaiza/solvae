@@ -27,7 +27,7 @@ const HomeProducts = () => {
 					<div className="item">
 						<img src={prodHome1} alt="producto hogar" />
 						<h2>Silla Salvaescalera</h2>
-						<div>Descriptcion breve y concisa del producto lorem ipsum  asfdas asd as as dasas dsa</div>
+						<div>Descriptcion breve y concisa del producto lorem ipsum  asfdas asd as as dasas dsaDescriptcion breve y concisa del producto lorem ipsum  asfdas asd as as dasas dsa</div>
 						<a target="_blank" rel="noopener noreferrer" href="https://www.elsaber21.com/wp-content/uploads/2017/05/Guia-de-Dota-2-en-Espanol-elsbaer21.pdf" className="btn btn-primary shadow-none">Catalogo online del producto<img src={bullet} alt="arrow link" /></a>
 					</div>
 				</div>

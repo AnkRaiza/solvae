@@ -27,14 +27,14 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="row mision_vision">
-        <div className="col-4 offset-2">
+        <div className="col-3 offset-3">
           <div className="item">
             <img src={arrow} alt="flecha" />
             <span>Misión</span>
             <span>Proveer soluciones de transporte vertical, basándonos en la calidad, la moderna ingeniería y el respaldo de nuestras representadas europeas y asiáticas.</span>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <div className="item">
             <img src={arrow} alt="flecha" />
             <span>Visión</span>
@@ -58,6 +58,9 @@ const AboutPage = () => {
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
               </div>
+              <div className="month">
+                Mes del acontecimiento
+              </div>
             </div>
             <div className="year">2000</div>
             <img src={line} alt="linea de tiempo" />
@@ -68,6 +71,9 @@ const AboutPage = () => {
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
               </div>
+              <div className="month">
+                Mes del acontecimiento
+              </div>
             </div>
             <div className="middle_line right">
               <div className="title">
@@ -75,6 +81,9 @@ const AboutPage = () => {
               </div>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
+              </div>
+              <div className="month">
+                Mes del acontecimiento
               </div>
             </div>
             <div className="year">2007</div>
@@ -86,6 +95,9 @@ const AboutPage = () => {
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
               </div>
+              <div className="month">
+                Mes del acontecimiento
+              </div>
             </div>
             <div className="year">2010</div>
             <img src={line} alt="linea de tiempo" />
@@ -95,6 +107,9 @@ const AboutPage = () => {
               </div>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
+              </div>
+              <div className="month">
+                Mes del acontecimiento
               </div>
             </div>
             <div className="year">2016</div>
@@ -106,6 +121,9 @@ const AboutPage = () => {
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
               </div>
+              <div className="month">
+                Mes del acontecimiento
+              </div>
             </div>
             <div className="year">2019</div>
             <img src={line} alt="linea de tiempo" />
@@ -116,6 +134,9 @@ const AboutPage = () => {
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
               </div>
+              <div className="month">
+                Mes del acontecimiento
+              </div>
             </div>
             <div className="year">2020</div>
             <img src={line} alt="linea de tiempo" />
@@ -125,6 +146,9 @@ const AboutPage = () => {
               </div>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mes del acontecimiento
+              </div>
+              <div className="month">
+                Mes del acontecimiento
               </div>
             </div>
           </div>
